@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(39,62, 57);
+}
+.chat{
+    border: solid navy;
+}
+.contacts navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: antiquewhite;
+    background-color: dimgrey;
+}
+.search-text{
+    color:rgb(237 248 245);
+    background-color: dimgrey;
+    width: 100%;
+}
+.search-text::placeholder{
+    color:rgb(237 248 245);
+}
+.contacts navbar p{
+    padding-right: 0.9em;  
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact .img{
+    background-color: aqua;
+    border-radius: 50%;
+}
+.contact .contact-name{
+    padding-left: 5em;
+}
+.chat navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 35vw;
+    color: antiquewhite;
+    background-color: dimgrey;
+}
+.chat navbar p{
+    padding-right: 5.0em;
+}
+.chats{
+   background-image: url("assets/bg.jpeg");
+    height: 80vh;
+    background-color: #cccccc;
+}
+.message{
+    width: 100%;
+    color:rgb(237 248 245);
+    background-color: dimgrey;
+}
+section .msg{
+    background-color:rgb(39,62, 57);
+    color: rgb(237 248 245);
+    width: 60%;
+}
